@@ -1,5 +1,7 @@
 # marvel-catalog
-Marvel Catalog
+Application will be made in order to study new libraries, it will use the official api of marvel.
+
+https://developer.marvel.com/
 
 
 ### Libraries
