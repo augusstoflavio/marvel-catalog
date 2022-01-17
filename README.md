@@ -10,6 +10,7 @@ Marvel Catalog
 - Android Navigation
 - Kotlin Flow
 - View Binding
+- Firebase
 
 ### Features
 
@@ -27,3 +28,4 @@ Marvel Catalog
 - Grandle Flavors
 - Dependency versions file
 - Tested data and domain modules
+- CI
