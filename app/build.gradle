@@ -37,6 +37,9 @@ android {
 }
 
 dependencies {
+    implementation project (":presentation")
+    implementation project (":domain")
+    implementation project (":data")
 
     implementation deps.android.core
     implementation deps.android.app_compat
@@ -44,10 +47,6 @@ dependencies {
     implementation deps.android.constraint_layout
     implementation deps.hilt.core
     kapt deps.hilt.compiler
-    implementation deps.ktor
-    implementation deps.room.core
-    annotationProcessor deps.room.compiler
-    implementation deps.room.ktx
     implementation deps.navigation.fragment
     implementation deps.navigation.ui
     implementation deps.navigation.dinamic
