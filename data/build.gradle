@@ -34,8 +34,6 @@ android {
 }
 
 dependencies {
-    implementation project(":domain")
-
     implementation deps.hilt.core
     kapt deps.hilt.compiler
     implementation deps.ktor
