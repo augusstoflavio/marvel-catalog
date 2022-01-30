@@ -11,4 +11,8 @@ class CharacterRepositoryImpl(
     override suspend fun getCharacters(page: Int): Result<List<Character>> {
         return characterDataSource.getCharacters(page)
     }
+
+    override suspend fun getCharacter(characterId: Int): Result<Character> {
+        return characterDataSource.getCharacter(characterId)
+    }
 }
