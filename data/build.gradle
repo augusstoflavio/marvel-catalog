@@ -40,4 +40,7 @@ dependencies {
     implementation deps.room.core
     annotationProcessor deps.room.compiler
     implementation deps.room.ktx
+    testImplementation deps.test.junit
+    testImplementation deps.test.mockito
+    testImplementation deps.test.coroutine_test
 }
