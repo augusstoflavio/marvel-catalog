@@ -32,6 +32,8 @@ https://developer.marvel.com/
 - Tested data and domain modules
 - CI
 
+### Contributors
+
 <table>
    <tr>
       <td align="center">
