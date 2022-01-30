@@ -6,7 +6,7 @@ import org.junit.runner.RunWith
 import org.mockito.Mock
 import com.marvelcatalog.data.common.Result
 import com.marvelcatalog.data.model.Character
-import com.marvelcatalog.domain.exception.InvalidParameterException
+import com.marvelcatalog.domain.exception.InvalidPageNumberException
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert
@@ -25,7 +25,7 @@ class GetCharacterUseCaseTest {
             val useCase = GetCharacterUseCase(mockRepository)
             useCase.invoke(0).let {
                 Assert.assertTrue(it is Result.Error)
-                Assert.assertTrue((it as Result.Error).exception is InvalidParameterException)
+                Assert.assertTrue((it as Result.Error).exception is InvalidPageNumberException)
             }
         }
     }
