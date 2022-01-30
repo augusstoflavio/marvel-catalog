@@ -30,10 +30,16 @@ test.junit = "junit:junit:4.13.2"
 test.mockito = "org.mockito:mockito-core:3.9.0"
 test.coroutine_test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.0"
 
+def ktor = [:]
+ktor.client = "io.ktor:ktor-client-android:1.6.7"
+ktor.client_serialization = "io.ktor:ktor-client-serialization:1.6.7"
+ktor.serialization = "io.ktor:ktor-serialization:1.6.7"
+ktor.client_logging = "io.ktor:ktor-client-logging-jvm:1.6.7"
+
 def deps = [:]
 deps.android = android
 deps.hilt = hilt
-deps.ktor = "io.ktor:ktor-client-core:1.6.7"
+deps.ktor = ktor
 deps.room = room
 deps.navigation = navigation
 deps.classpath = classpath

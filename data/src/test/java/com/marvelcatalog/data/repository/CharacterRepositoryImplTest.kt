@@ -56,7 +56,7 @@ class CharacterRepositoryImplTest {
             val result: Result<Character> = Result.Success(listCharacter.first())
 
             Mockito.`when`(
-                mockDataSource.getCharacter(1)
+                mockDataSource.getCharacterDetail(1)
             ).thenReturn(result)
 
 
