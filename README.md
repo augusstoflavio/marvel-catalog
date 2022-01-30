@@ -31,9 +31,3 @@ https://developer.marvel.com/
 - Dependency versions file
 - Tested data and domain modules
 - CI
-
-### Contributors
-
-<a href="https://github.com/augusstoflavio/marvel-catalog/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=augusstoflavio/marvel-catalog" />
-</a>
