@@ -13,6 +13,6 @@ class CharacterRepositoryImpl(
     }
 
     override suspend fun getCharacter(characterId: Int): Result<Character> {
-        return characterDataSource.getCharacter(characterId)
+        return characterDataSource.getCharacterDetail(characterId)
     }
 }
