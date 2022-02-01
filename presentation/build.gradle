@@ -32,8 +32,6 @@ android {
 }
 
 dependencies {
-    implementation project(":domain")
-
     implementation deps.android.core
     implementation deps.android.lifecycle_extensions
     implementation deps.android.lifecycle_viewmodel
