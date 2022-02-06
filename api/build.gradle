@@ -33,7 +33,6 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':data')
     implementation deps.android.core
     implementation deps.ktor.client
     implementation deps.ktor.client_serialization

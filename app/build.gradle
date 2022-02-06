@@ -37,8 +37,6 @@ android {
 }
 
 dependencies {
-    implementation project (":data")
-
     implementation deps.android.core
     implementation deps.android.app_compat
     implementation deps.android.material
