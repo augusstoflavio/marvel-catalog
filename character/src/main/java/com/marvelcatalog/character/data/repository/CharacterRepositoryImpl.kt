@@ -2,7 +2,7 @@ package com.marvelcatalog.character.data.repository
 
 import com.marvelcatalog.character.data.dataSource.CharacterDataSource
 import com.marvelcatalog.character.data.model.Character
-import com.marvelcatalog.character.data.commom.Result
+import com.marvelcatalog.character.core.model.Result
 
 class CharacterRepositoryImpl(
     private val characterDataSource: CharacterDataSource
