@@ -54,11 +54,7 @@ dependencies {
     testImplementation deps.test.junit
     testImplementation deps.test.mockito
     testImplementation deps.test.coroutine_test
-
-    def nav_version = "2.4.1"
-    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
-    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
-    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
-    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
-    implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+    implementation deps.navigation.fragment
+    implementation deps.navigation.ui
+    implementation deps.navigation.dinamic
 }
