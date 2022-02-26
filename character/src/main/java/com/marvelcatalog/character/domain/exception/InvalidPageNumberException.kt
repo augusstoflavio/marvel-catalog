@@ -1,3 +1,3 @@
-package com.marvelcatalog.character.useCase.exception
+package com.marvelcatalog.character.domain.exception
 
 class InvalidPageNumberException : Exception()
