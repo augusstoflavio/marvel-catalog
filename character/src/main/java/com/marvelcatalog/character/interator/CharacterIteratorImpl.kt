@@ -1,5 +1,6 @@
-package com.marvelcatalog.character.impl
+package com.marvelcatalog.character.interator
 
+import com.marvelcatalog.character.api.Character
 import com.marvelcatalog.character.api.CharacterIterator
 import com.marvelcatalog.character.core.model.Result
 import com.marvelcatalog.character.useCase.GetCharacterDetailUseCase
@@ -10,11 +11,11 @@ class CharacterIteratorImpl(
     private val getCharacterDetailUseCase: GetCharacterDetailUseCase
 ): CharacterIterator {
 
-    override suspend fun getCharacters(page: Int): Result<List<com.marvelcatalog.character.api.Character>> {
+    override suspend fun getCharacters(page: Int): Result<List<Character>> {
         return getCharacterUseCase.invoke(page)
     }
 
-    override suspend fun getCharacter(characterId: Int): Result<com.marvelcatalog.character.api.Character> {
+    override suspend fun getCharacter(characterId: Int): Result<Character> {
         return getCharacterDetailUseCase.invoke(characterId)
     }
 
