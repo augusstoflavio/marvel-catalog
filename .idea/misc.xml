@@ -6,9 +6,12 @@
         <entry key="..\:/Users/danil/AndroidStudioProjects/marvel-catalog/app/src/main/res/layout/activity_main.xml" value="0.13854166666666667" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3671875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22146739130434784" />
+        <entry key="app/src/main/res/xml/a.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/xml/network_security.xml" value="0.24365942028985507" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.24365942028985507" />
         <entry key="character/src/main/res/layout/activity_home.xml" value="0.24365942028985507" />
         <entry key="character/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
-        <entry key="character/src/main/res/layout/adapter_character.xml" value="0.5" />
+        <entry key="character/src/main/res/layout/adapter_character.xml" value="0.4827586206896552" />
         <entry key="character/src/main/res/layout/fragment_character_list.xml" value="0.3512245961438249" />
       </map>
     </option>

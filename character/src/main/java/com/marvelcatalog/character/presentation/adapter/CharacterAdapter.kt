@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.marvelcatalog.character.databinding.AdapterCharacterBinding
 import com.marvelcatalog.character.presentation.model.CharacterView
+import com.marvelcatalog.commons.extensions.loadImage
 
 class CharacterAdapter(
     private val onClickListener: (CharacterView) -> Unit
@@ -28,7 +29,7 @@ class CharacterAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(characterView: CharacterView) {
-            //TODO carregar a imagem
+            binding.ivThumbnail.loadImage(binding.root.context, characterView.thumbnail)
             binding.tvName.text = characterView.name
             binding.tvDescription.text = characterView.description
             binding.root.setOnClickListener {
