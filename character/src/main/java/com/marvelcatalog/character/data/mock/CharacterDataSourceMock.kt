@@ -2,7 +2,7 @@ package com.marvelcatalog.character.data.mock
 
 import com.marvelcatalog.character.core.model.Result
 import com.marvelcatalog.character.data.dataSource.CharacterDataSource
-import com.marvelcatalog.character.data.model.Character
+import com.marvelcatalog.character.api.Character
 
 class CharacterDataSourceMock: CharacterDataSource {
 

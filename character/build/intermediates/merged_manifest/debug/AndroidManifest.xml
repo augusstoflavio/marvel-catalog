@@ -6,4 +6,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="31" />
 
+    <application>
+        <activity
+            android:name="com.marvelcatalog.character.presentation.activity.HomeActivity"
+            android:exported="true" />
+    </application>
+
 </manifest>

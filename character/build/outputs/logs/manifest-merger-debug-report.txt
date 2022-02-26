@@ -1,14 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:2:1-5:12
-INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:2:1-5:12
+ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:2:1-11:12
 	package
 		ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml
 		INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:5:5-9:19
+activity#com.marvelcatalog.character.presentation.activity.HomeActivity
+ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:6:9-8:39
+	android:exported
+		ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:8:13-36
+	android:name
+		ADDED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:7:13-63
 uses-sdk
 INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml

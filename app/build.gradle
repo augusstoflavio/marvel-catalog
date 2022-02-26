@@ -46,4 +46,7 @@ dependencies {
     implementation deps.navigation.fragment
     implementation deps.navigation.ui
     implementation deps.navigation.dinamic
+
+    //TODO esse modulo deve ter acesso apenas ao :character:routes
+    implementation project(':character')
 }

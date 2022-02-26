@@ -1,4 +1,4 @@
-package com.marvelcatalog.character.data.model
+package com.marvelcatalog.character.api
 
 data class Character(
     val id: Int,

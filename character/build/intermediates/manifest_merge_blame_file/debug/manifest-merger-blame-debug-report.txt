@@ -8,4 +8,14 @@
 7        android:targetSdkVersion="31" />
 7-->/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml
 8
-9</manifest>
+9    <application>
+9-->/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:5:5-9:19
+10        <activity
+10-->/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:6:9-8:39
+11            android:name="com.marvelcatalog.character.presentation.activity.HomeActivity"
+11-->/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:7:13-63
+12            android:exported="true" />
+12-->/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/AndroidManifest.xml:8:13-36
+13    </application>
+14
+15</manifest>

@@ -1,8 +1,0 @@
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/useCase/GetCharacterDetailUseCase.kt
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/domain/exception/InvalidPageNumberException.kt
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/data/repository/CharacterRepository.kt
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/useCase/GetCharacterUseCase.kt
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/data/dataSource/CharacterDataSource.kt
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/data/commom/Result.kt
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/data/repository/CharacterRepositoryImpl.kt
-/home/augusto/AndroidStudioProjects/marvel-catalog/character/src/main/java/com/marvelcatalog/character/data/model/Character.kt
