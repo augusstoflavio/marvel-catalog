@@ -46,7 +46,7 @@ class CharacterListFragment: Fragment() {
                 id = 1,
                 name = "Homem de ferro",
                 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in nulla magna. Sed ac lacinia odio. Cras augue ipsum, auctor semper risus sit amet, aliquam sodales tortor. Aenean lacinia mi sed purus sollicitudin, quis tempus orci iaculis. Duis vitae nisi hendrerit, vestibulum lectus eget, commodo eros",
-                thumbnail = "https://cdn.pixabay.com/photo/2013/10/15/09/12/flower-195893_150.jpg"
+                thumbnail = "https://hqrock.files.wordpress.com/2013/03/iron_man_movie.jpg?w=386&h=568"
             ),
             CharacterView(
                 id = 2,

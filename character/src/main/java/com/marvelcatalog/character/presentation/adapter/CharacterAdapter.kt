@@ -29,7 +29,7 @@ class CharacterAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(characterView: CharacterView) {
-            binding.ivThumbnail.loadImage(binding.root.context, characterView.thumbnail)
+            binding.ivThumbnail.loadImage(characterView.thumbnail)
             binding.tvName.text = characterView.name
             binding.tvDescription.text = characterView.description
             binding.root.setOnClickListener {
