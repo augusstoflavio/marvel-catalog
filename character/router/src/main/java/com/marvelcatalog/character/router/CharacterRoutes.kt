@@ -4,5 +4,6 @@ import android.app.Activity
 
 interface CharacterRoutes {
 
-    fun goHome(fromActivity: Activity)
+    fun goListCharacters(fromActivity: Activity)
+    fun goCharacter(fromActivity: Activity, characterId: Int)
 }

@@ -7,12 +7,32 @@
     tools:context=".view.MainActivity">
 
     <Button
-        android:id="@+id/btn_go_to_character"
+        android:id="@+id/btn_go_to_character_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir para personagens"
+        android:text="Ir para lista de personagens"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Exemplos de rotas:"
+        app:layout_constraintBottom_toTopOf="@+id/btn_go_to_character_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_go_to_character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ir para um personagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_go_to_character_list" />
 </androidx.constraintlayout.widget.ConstraintLayout>

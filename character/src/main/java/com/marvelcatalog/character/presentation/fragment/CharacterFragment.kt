@@ -27,6 +27,7 @@ class CharacterFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        //TODO carregar de um viewModel
         FakeListCharacter.find(args.characterId)?.let {
             setupView(it)
         }
