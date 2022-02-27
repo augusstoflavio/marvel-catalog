@@ -7,6 +7,7 @@ import androidx.navigation.NavGraph
 import androidx.navigation.findNavController
 import com.marvelcatalog.character.R
 import com.marvelcatalog.character.databinding.ActivityHomeBinding
+import com.marvelcatalog.character.presentation.fragment.CharacterFragment
 import com.marvelcatalog.character.router.CharacterRoutesImpl
 
 class HomeActivity : AppCompatActivity() {
@@ -16,6 +17,10 @@ class HomeActivity : AppCompatActivity() {
         val binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setupNavigation()
+    }
+
+    private fun setupNavigation() {
         val navController = findNavController(R.id.nav_host_fragment)
         val graph = navController.navInflater.inflate(R.navigation.character_nav_graph)
 
@@ -41,7 +46,7 @@ class HomeActivity : AppCompatActivity() {
         navController.graph = graph
         val bundle = Bundle().apply {
             putInt(
-                "characterId",
+                CharacterFragment.CHARACTER_ID,
                 intent.getIntExtra(CharacterRoutesImpl.PARAM_CHARACTER_ID, 0)
             )
         }

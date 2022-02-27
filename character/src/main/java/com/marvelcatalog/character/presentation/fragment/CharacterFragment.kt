@@ -45,4 +45,8 @@ class CharacterFragment: Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+    companion object {
+        const val CHARACTER_ID = "characterId"
+    }
 }
