@@ -1,7 +1,7 @@
 package com.marvelcatalog.character.data.repository
 
+import com.marvelcatalog.character.api.Character
 import com.marvelcatalog.character.core.model.Result
-import com.marvelcatalog.character.data.model.Character
 
 interface CharacterRepository {
 

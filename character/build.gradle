@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs'
 }
 
 android {
@@ -31,16 +32,22 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    viewBinding {
+        enabled = true
+    }
 }
 
 dependencies {
     implementation project(':core')
     implementation project(':character:api')
+    implementation project(':character:router')
+    implementation project(':commons')
 
+    implementation deps.android.core
+    implementation deps.android.app_compat
+    implementation deps.android.material
+    implementation deps.android.constraint_layout
     implementation deps.hilt.core
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     kapt deps.hilt.compiler
     implementation deps.room.core
     annotationProcessor deps.room.compiler
@@ -48,4 +55,7 @@ dependencies {
     testImplementation deps.test.junit
     testImplementation deps.test.mockito
     testImplementation deps.test.coroutine_test
+    implementation deps.navigation.fragment
+    implementation deps.navigation.ui
+    implementation deps.navigation.dinamic
 }
